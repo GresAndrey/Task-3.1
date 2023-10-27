@@ -3,17 +3,17 @@ package app.model;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Cat extends Animal {
+public class Dog extends Animal {
 
     private String saying;
 
-    public Cat(String saying) {
+    public Dog(String saying) {
         this.saying = saying;
     }
 
     @Override
     public String toString() {
-        return "Im a Cat";
+        return "I'm a Dog";
     }
 
     @Override
